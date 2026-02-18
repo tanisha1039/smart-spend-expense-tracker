@@ -1,62 +1,52 @@
-Smart Spend 
+# Smart Spend
+
 Smart Spend is a full-stack Expense Tracker web application that allows users to manage expenses, monitor spending trends, and track a monthly budget with visual insights.
 
-Features:
+---
 
-1. Authentication
-User Registration
-User Login
-Password hashing using bcrypt
-JWT-based authentication
-Protected API routes
+## Features
 
-2. Expense Management
-Add new expenses
-Delete expenses
-View total expenses
-Monthly expense calculation
+### Authentication
+- User Registration & Login  
+- Password hashing using **bcrypt**  
+- JWT-based authentication  
+- Protected API routes  
 
-3. Analytics Dashboard
-Category-wise expense distribution 
-Monthly spending trend 
-Dynamic UI updates
+### Expense Management
+- Add new expenses  
+- Delete expenses  
+- View total expenses  
+- Monthly expense calculation  
 
-4. Budget Tracking
-Set monthly budget
-Visual budget progress bar
-Alert when budget is exceeded
+### Analytics Dashboard
+- Category-wise expense distribution (Chart.js)
+- Monthly spending trend graph
+- Dynamic UI updates  
 
-Tech Stack:
+### Budget Tracking
+- Set monthly budget  
+- Visual budget progress bar  
+- Alert when budget is exceeded  
 
-Backend
-Node.js
-Express.js
-MySQL
-JWT (jsonwebtoken)
+---
 
-Frontend
-HTML
-Tailwind CSS
-Chart.js
-Vanilla JavaScript 
+## Tech Stack
 
-Project Structure:
-expense_tracker/
-│
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   ├── package.json
-│
-├── frontend/
-│   ├── js/
-│   ├── dashboard.html
-│   ├── index.html
-│
-└── README.md
+### Backend
+- Node.js  
+- Express.js  
+- MySQL  
+- JWT (jsonwebtoken)  
+
+### Frontend
+- HTML  
+- Tailwind CSS  
+- Chart.js  
+- Vanilla JavaScript  
+
+---
+
+## 📂 Project Structure
+
 
 
