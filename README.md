@@ -47,6 +47,39 @@ Smart Spend is a full-stack Expense Tracker web application that allows users to
 ---
 
 ## 📂 Project Structure
+expense_tracker/
+│
+├── backend/
+│ ├── config/
+│ ├── controllers/
+│ ├── middleware/
+│ ├── models/
+│ ├── routes/
+│ ├── server.js
+│ └── package.json
+│
+├── frontend/
+│ ├── css/
+│ ├── js/
+│ ├── dashboard.html
+│ └── index.html
+│
+├── .gitignore
+└── README.md
 
+
+---
+
+## Setup Instructions
+
+### Clone the Repository
+
+```bash
+git clone <your-repo-link>
+cd expense_tracker
+
+### Backend setup
+cd backend
+npm install
 
 
